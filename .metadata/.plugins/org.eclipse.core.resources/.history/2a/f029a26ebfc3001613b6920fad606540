@@ -1,0 +1,17 @@
+package com.wbl.oops;
+
+public class Animal {
+	
+	//properties
+	name;
+	color;
+	breed;
+	
+	//behaviour or actions
+	
+	eat
+	makeNoise
+	walk
+	
+
+}
