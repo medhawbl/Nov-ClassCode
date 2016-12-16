@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;JavaBasics-Nov/src/com/wbl/test/AnimalDemo.java&apos; to &apos;AnimalTest.java&apos;" description="Rename resource &apos;AnimalDemo.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/wbl/test/AnimalDemo.java" name="AnimalTest.java" stamp="1481916840292" updateReferences="true"/>
-</session>
