@@ -9,7 +9,7 @@ public class Animal{
 		
 	//default constructor
 	public Animal(){
-		System.out.println("In Constructor-This is first statement that gets executed for this class object");;
+		System.out.println("Parent Constructor-This is first statement that gets executed for this class object");;
 	}
 	
 	//parameterised constructor
@@ -26,7 +26,7 @@ public class Animal{
 	}
 	
 	public void makeNoise(){
-		System.out.println("It says bow");
+		System.out.println("Parent - It says Noise");
 	}
 	
 	public void setName(String inputName){
@@ -37,9 +37,8 @@ public class Animal{
 		color = inputColor;
 	}
 	
-	public void displayDetails(){
+	public void displayDetails(){		
 		System.out.println("this is start of display method");
-		eat();
 		System.out.println("Name is : "+ name);
 		System.out.println("Color is : "+ color);
 		System.out.println("Breed is : "+ breed);
