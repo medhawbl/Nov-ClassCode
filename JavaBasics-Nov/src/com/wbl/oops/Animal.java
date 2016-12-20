@@ -3,9 +3,9 @@ package com.wbl.oops;
 public class Animal{
 	
 	//properties - variables
-		private String name;
-		public String color;
-		String breed;
+	private String name;
+	public String color;
+	String breed;
 		
 	//default constructor
 	public Animal(){

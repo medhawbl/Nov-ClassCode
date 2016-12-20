@@ -21,5 +21,5 @@ public class AnimalTest {
 		animalObj2.eat();
 		
 	}
-
+	
 }

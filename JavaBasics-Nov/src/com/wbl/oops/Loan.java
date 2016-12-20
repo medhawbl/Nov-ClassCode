@@ -51,6 +51,10 @@ public class Loan {
 		System.out.println("loan id:"+loanId+ "::custId::"+custId+"::loanType::"+loanType);
 	}
 	
+	public int getPrincipal(){
+		return 74839;
+	}
+	
 	public float getInterestDetails(float principal, int tenure){
 		float interestAmount = (principal*tenure*RATE_OF_INTEREST)/100;
 		return interestAmount;
@@ -58,7 +62,10 @@ public class Loan {
 	
 	public Loan getLoanObject(){
 		Loan loanObj = new Loan();
+		getInterestDetails(getPrincipal(), 7);
 		return loanObj;
+		
+		
 	}
 	
 	

@@ -1,6 +1,6 @@
 package com.wbl.oops;
 
-public class AnimalDemo {
+public class AnimalDemoAndTypeCasting {
 
 	public static void main(String[] args){
 		//object/instance of class
@@ -31,12 +31,22 @@ public class AnimalDemo {
 		dog.features();*/
 		
 
-
-		Animal dog = new Dog();// implicit casting or upcasting
-		dog.makeNoise();/*
+/*
+		Animal dog = new Dog();
+		dog.makeNoise();
+		*/
+		//TypeCasting 
+		Dog d1 = new Dog();		
+		Animal a1 = d1;// implicit casting or upcasting
+		a1.makeNoise();
 		
-		Dog dog1 = (Dog)new Animal();// explicit casting or downcating
-		dog.makeNoise();*/
+		Animal a2 = new Dog();
+		Dog d2 = (Dog)a2;//// explicit casting or downcasting
+		d2.makeNoise();
+		
+		Animal a3 = new Animal();
+		Dog d3 = (Dog)a3; //fails at runtime- cannot assign parent class object to child class reference
+		d3.makeNoise();
 		
 	}
 	

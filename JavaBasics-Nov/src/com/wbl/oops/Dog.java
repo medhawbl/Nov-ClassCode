@@ -7,7 +7,6 @@ public class Dog extends Animal{
 		System.out.println("It is child constructor");
 	}
 	
-	@Override
 	public void makeNoise(){		
 		System.out.println("Child - Dog says Bow Bow");
 	}
