@@ -1,10 +1,12 @@
 package com.wbl.oops;
 
+
 public class Addition {
 	
 	 int add(int a , int b){
 		System.out.println("2 int input params");
 		int c = a+b;
+		
 		return c;
 	}	
 	
