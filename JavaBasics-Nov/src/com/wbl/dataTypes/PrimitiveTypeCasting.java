@@ -1,4 +1,4 @@
-package com.wbl.oops.dataTypes;
+package com.wbl.dataTypes;
 
 public class PrimitiveTypeCasting {
 

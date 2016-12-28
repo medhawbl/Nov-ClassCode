@@ -5,7 +5,8 @@ import com.wbl.oops.abstractAndinterface.IBrowser;
 
 public class Mobile {
 	
-	protected int version;
+	public int version;
+	public String name;
 	
 	public Mobile(){
 		

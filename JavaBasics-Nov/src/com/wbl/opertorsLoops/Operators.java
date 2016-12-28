@@ -1,4 +1,7 @@
-package com.wbl.oops;
+package com.wbl.opertorsLoops;
+
+import com.wbl.oops.Loan;
+import com.wbl.oops.MortgageLoan;
 
 public class Operators {
 
@@ -28,11 +31,11 @@ public class Operators {
 		System.out.println("prefix increment::"+(++i));
 		System.out.println("prefix increment after statement::"+(i));
 		
-		/*int b1 = 6;
+		int b1 = 6;//0110
 		b1= ~b1;
-		System.out.println("negation::"+(b1));*/
-		boolean b1 = true;
-		System.out.println("not on boolean:"+ !b1);
+		System.out.println("negation::"+(b1));
+		boolean b2 = true;
+		System.out.println("not on boolean:"+ !b2);
 		
 		//equality or relational- always evaluate to boolean-true or false
 		System.out.println(a>b);
