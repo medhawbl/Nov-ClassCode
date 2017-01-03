@@ -11,6 +11,10 @@ public class AndroidMobile extends Mobile {
 				+ "to intialise any variables data required by class");
 	}
 	
+	public String toString(){
+		return "This is objct of AndrioidMobile class";
+	}
+	
 	public AndroidMobile(int version){
 		super();
 		this.version = version;

@@ -30,7 +30,8 @@ public class MobileDemo {
 		m3=a3;// implicit casting or upcasting- child to parent
 		//Mobile is a AndroidMobile-  wrong , Mobile can IOs or windows or any
 		a3=(AndroidMobile)m3;//this is wrong bcz downcasting is done only when object satisfies is a relation	
-		
+		System.out.println(a3.toString());
+		System.out.println(a3.hashCode());
 	}
 
 }
