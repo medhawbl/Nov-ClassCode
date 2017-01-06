@@ -1,10 +1,14 @@
 package com.wbl.collections;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Vector;
+
+import javax.swing.event.ListSelectionEvent;
 
 public class ListExample {
 	
@@ -93,10 +97,38 @@ public class ListExample {
 		System.out.println("size after pol:"+firstList.size());
 		
 	}
+	
+	public void sortArraylList(){
+		/*List<String> firstList = new ArrayList<String>();
+		
+		firstList.add("one");
+		firstList.add("two");
+		firstList.add("abc");
+		firstList.add("ball");
+		
+		Collections.sort(firstList);*/
+		
+		List<Student> stdList = new ArrayList<Student>();
+		Student s1 = new Student(1233849398,"rohan");//643847
+		Student s2 = new Student(2362223,"hema");	
+		Student s3 = new Student(13212412,"ahad");	
+		Student s4 = new Student(34325232,"beena");	
+		stdList.add(s1);
+		stdList.add(s2);
+		stdList.add(s3);
+		stdList.add(s4);
+		Collections.sort(stdList,new StudentComparator());
+		for(Student std: stdList){
+			System.out.println("std id:"+std.id+":std name:"+std.name);
+		}
+		//converting list to array & array to list
+		Student[] stdArray = (Student[])stdList.toArray();
+		List<Student> std = Arrays.asList(stdArray);
+	}
 
 	public static void main(String[] args) {
 		ListExample le = new ListExample();
-		le.linkedListExample();
+		le.sortArraylList();
 
 	}
 

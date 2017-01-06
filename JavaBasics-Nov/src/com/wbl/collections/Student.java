@@ -1,6 +1,6 @@
 package com.wbl.collections;
 
-public class Student {
+public class Student{ // implements Comparable<Student>{
 	
 	public int id;
 	public String name;
@@ -24,5 +24,18 @@ public class Student {
 		}
 		return isEqual;
 	}
+
+	/*@Override
+	public int compareTo(Student o) {
+		
+		//int result = 0;
+		
+		if(this.id > o.id){
+			result = 1;
+		}else if (this.id <o.id){
+			result = -1;
+		}
+		return this.name.compareTo(o.name);
+	}*/
 
 }
