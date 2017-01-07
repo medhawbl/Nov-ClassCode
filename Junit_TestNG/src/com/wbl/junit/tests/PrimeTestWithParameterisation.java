@@ -1,4 +1,4 @@
-package com.wbl.test;
+package com.wbl.junit.tests;
 
 import static org.junit.Assert.assertEquals;
 
@@ -21,11 +21,13 @@ public class PrimeTestWithParameterisation {
 	int input;
 	boolean expectedOutput;
 	
+	//step 2 - executed 6 times
 	public PrimeTestWithParameterisation(int input,boolean expectedOutput){
 		this.input=input;
 		this.expectedOutput=expectedOutput;
 	}
 	
+	//step 1 - - executed once
 	@Parameters
 	public static Collection dataForTest(){			
 		Object[][] testData = {{5,true},{10,false},{1,false},{0,true},{-5,true},{2,true}};
@@ -37,6 +39,7 @@ public class PrimeTestWithParameterisation {
 		pm =  new PrimeNumber();
 	}
 	
+	//step 3-  executed 6 times
 	@Test
 	public void testIsPrime(){
 		

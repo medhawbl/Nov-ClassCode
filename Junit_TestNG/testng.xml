@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="MySuite">
+<test name="test1">
+<groups>
+<run>
+<include name="smokeTest"></include>
+<include name="functionalityTest"></include>
+</run>
+</groups>
+<classes>
+<class name="com.wbl.testng.test.HomePageTest">
+
+</class>
+</classes>
+</test><!-- 
+<test name="test2">
+<classes>
+<class name="com.wbl.testng.test.PrimeNumberTest"></class>
+</classes>
+</test> -->
+</suite>

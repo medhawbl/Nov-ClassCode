@@ -1,4 +1,4 @@
-package com.wbl.test;
+package com.wbl.junit.tests;
 
 import com.wbl.main.PrimeNumber;
 
@@ -17,7 +17,11 @@ public class PrimeNumberTest extends TestCase {
 	public void testIsPrime1(){
 		PrimeNumber pm = new PrimeNumber();
 		boolean result = pm.isPrime(5);
-		assertEquals(true, result);
+		assertEquals("there is an error",true, result);
+		/*assertNotNull(result);
+		assertNull(result);
+		assertTrue(result);
+		assertFalse(result);*/
 	}
 	
 	public void testIsPrime2(){

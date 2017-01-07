@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MySuite" duration-ms="50" started-at="2017-01-07T02:15:02Z" finished-at="2017-01-07T02:15:02Z">
+    <groups>
+      <group name="functionalityTest">
+        <method signature="HomePageTest.testPresentations()[pri:0, instance:com.wbl.testng.test.HomePageTest@2f32ff]" name="testPresentations" class="com.wbl.testng.test.HomePageTest"/>
+      </group> <!-- functionalityTest -->
+      <group name="smokeTest">
+        <method signature="HomePageTest.testLogin()[pri:0, instance:com.wbl.testng.test.HomePageTest@2f32ff]" name="testLogin" class="com.wbl.testng.test.HomePageTest"/>
+        <method signature="HomePageTest.testRecordings()[pri:0, instance:com.wbl.testng.test.HomePageTest@2f32ff]" name="testRecordings" class="com.wbl.testng.test.HomePageTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test name="test1" duration-ms="50" started-at="2017-01-07T02:15:02Z" finished-at="2017-01-07T02:15:02Z">
+      <class name="com.wbl.testng.test.HomePageTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.wbl.testng.test.HomePageTest@2f32ff]" name="beforeClass" is-config="true" duration-ms="8" started-at="2017-01-06T18:15:02Z" finished-at="2017-01-06T18:15:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.wbl.testng.test.HomePageTest@2f32ff]" name="testLogin" duration-ms="7" started-at="2017-01-06T18:15:02Z" finished-at="2017-01-06T18:15:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testPresentations()[pri:0, instance:com.wbl.testng.test.HomePageTest@2f32ff]" name="testPresentations" duration-ms="1" started-at="2017-01-06T18:15:02Z" finished-at="2017-01-06T18:15:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPresentations -->
+        <test-method status="PASS" signature="testRecordings()[pri:0, instance:com.wbl.testng.test.HomePageTest@2f32ff]" name="testRecordings" duration-ms="3" started-at="2017-01-06T18:15:02Z" finished-at="2017-01-06T18:15:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRecordings -->
+      </class> <!-- com.wbl.testng.test.HomePageTest -->
+    </test> <!-- test1 -->
+  </suite> <!-- MySuite -->
+</testng-results>

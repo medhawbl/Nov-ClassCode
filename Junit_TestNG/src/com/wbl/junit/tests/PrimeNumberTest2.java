@@ -1,4 +1,4 @@
-package com.wbl.test;
+package com.wbl.junit.tests;
 
 // static imports - u r importing all static methods at once
 import static org.junit.Assert.assertEquals;
