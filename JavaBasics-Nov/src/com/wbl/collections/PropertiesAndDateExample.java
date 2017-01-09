@@ -1,4 +1,4 @@
-package com.wbl.collections;
+package com.wbl.main;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Properties;
 
-public class PropertiesAndDateExample{
+public class PropertiesExample{
 	
 	public void propertiesExample(){
 		
