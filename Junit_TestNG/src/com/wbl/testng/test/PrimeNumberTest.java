@@ -21,7 +21,7 @@ public class PrimeNumberTest extends BaseTest{
 		System.out.println("It executes after every class");
 	}
 	
-	@BeforeMethod
+	/*@BeforeMethod
 	public void beforeMethod(){
 		System.out.println("It executes before every method");
 	}
@@ -29,7 +29,7 @@ public class PrimeNumberTest extends BaseTest{
 	@AfterMethod
 	public void afterMethod(){
 		System.out.println("It executes after every method");
-	}
+	}*/
 	
 	@Test
 	public void testIsPrime1(){

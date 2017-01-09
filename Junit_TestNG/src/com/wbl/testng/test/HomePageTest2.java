@@ -6,27 +6,33 @@ import org.testng.annotations.Test;
 
 import com.wbl.main.HomePage;
 
-public class HomePageTest {
+public class HomePageTest2 {
 	HomePage hm;
 	
-	@BeforeClass(alwaysRun=true)
+	@BeforeClass
 	public void beforeClass(){
 		hm= new HomePage();
 	}
 	
-	@Test(groups={"smokeTest","functionaltyTest"})
+	@Test
 	public void testLogin(){
+		
 		assertEquals("success",hm.doLogin());
 	}
 	
-	@Test(groups={"functionaltyTest"}, dependsOnGroups={"smokeTest"})
+	@Test(dependsOnMethods={"testLogin"})
 	public void testRecordings(){
-		assertEquals("playing",hm.recordings());
+		assertEquals("plang",hm.recordings());
 	}
 	
-	@Test(groups={"functionalityTest"})
+	@Test(dependsOnMethods={"testRecordings"},alwaysRun=true)
 	public void testPresentations(){
 		assertEquals(20,hm.presentations());
+	}
+	
+	@Test(dependsOnMethods={"testPresentations"})
+	public void testLogout(){
+		System.out.println("succesfully logged out");
 	}
 	
 	

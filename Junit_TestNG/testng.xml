@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="MySuite">
+<suite name="MySuite" parallel="tests">
+
 <test name="test1">
-<groups>
+<!-- <groups>
 <run>
 <include name="smokeTest"></include>
 <include name="functionalityTest"></include>
 </run>
-</groups>
-<classes>
-<class name="com.wbl.testng.test.HomePageTest">
+</groups>  -->
 
+<parameter name="greet" value="helloworld"></parameter>
+<parameter name="greet1" value="helloworld- today is monday"></parameter>
+<classes>
+<class name="com.wbl.testng.test.BasicTest">
 </class>
 </classes>
-</test><!-- 
+</test>
 <test name="test2">
 <classes>
 <class name="com.wbl.testng.test.PrimeNumberTest"></class>
 </classes>
-</test> -->
+</test> 
 </suite>
