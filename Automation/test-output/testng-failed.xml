@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.training.Automation.HomePageTest">
+      <class name="com.training.Automation.Waits">
         <methods>
-          <include name="testWalmartHomePage"/>
+          <include name="explicitWait1"/>
           <include name="before"/>
-          <include name="after"/>
+          <include name="testExplicitWait2"/>
         </methods>
-      </class> <!-- com.training.Automation.HomePageTest -->
+      </class> <!-- com.training.Automation.Waits -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

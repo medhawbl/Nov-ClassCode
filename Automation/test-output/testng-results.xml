@@ -2,24 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21637" started-at="2017-01-12T20:35:18Z" finished-at="2017-01-12T20:35:40Z">
+  <suite name="Default suite" duration-ms="9986" started-at="2017-01-17T19:22:30Z" finished-at="2017-01-17T19:22:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21637" started-at="2017-01-12T20:35:18Z" finished-at="2017-01-12T20:35:40Z">
-      <class name="com.training.Automation.HomePageTest">
-        <test-method status="PASS" signature="before()[pri:0, instance:com.training.Automation.HomePageTest@c285f4]" name="before" is-config="true" duration-ms="2532" started-at="2017-01-12T12:35:18Z" finished-at="2017-01-12T12:35:20Z">
+    <test name="Default test" duration-ms="9986" started-at="2017-01-17T19:22:30Z" finished-at="2017-01-17T19:22:39Z">
+      <class name="com.training.Automation.ActionsExample">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.training.Automation.ActionsExample@26be92ad]" name="before" is-config="true" duration-ms="2223" started-at="2017-01-17T11:22:30Z" finished-at="2017-01-17T11:22:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="testWalmartHomePage()[pri:0, instance:com.training.Automation.HomePageTest@c285f4]" name="testWalmartHomePage" duration-ms="18071" started-at="2017-01-12T12:35:20Z" finished-at="2017-01-12T12:35:39Z">
+        <test-method status="PASS" signature="testActions()[pri:0, instance:com.training.Automation.ActionsExample@26be92ad]" name="testActions" duration-ms="7747" started-at="2017-01-17T11:22:32Z" finished-at="2017-01-17T11:22:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testWalmartHomePage -->
-        <test-method status="PASS" signature="after()[pri:0, instance:com.training.Automation.HomePageTest@c285f4]" name="after" is-config="true" duration-ms="1020" started-at="2017-01-12T12:35:39Z" finished-at="2017-01-12T12:35:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-      </class> <!-- com.training.Automation.HomePageTest -->
+        </test-method> <!-- testActions -->
+      </class> <!-- com.training.Automation.ActionsExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

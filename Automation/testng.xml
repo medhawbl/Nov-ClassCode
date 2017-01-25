@@ -3,8 +3,7 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="com.training.Automation.AppTest"/>
-      <class name="com.training.Automation.FirstWebDriver"/>
+      <class name="com.training.Automation.Waits"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

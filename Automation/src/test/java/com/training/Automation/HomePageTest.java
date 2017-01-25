@@ -17,7 +17,7 @@ public class HomePageTest {
 	
 	@BeforeClass
 	public void before(){
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\WBL\\MedhaNovWorkspace\\Automation\\resources\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\resources\\chromedriver.exe");
 		driver = new ChromeDriver();
 	}
 	
@@ -26,14 +26,18 @@ public class HomePageTest {
 		
 		driver.get("https://www.walmart.com/");
 		/*WebElement element = driver.findElement(By.cssSelector(".elc-icon.elc-icon-cart"));
-		element.click();*/
-		List<WebElement> elements = driver.findElements(By.cssSelector("[class*='m-margin-left']"));
-		Assert.assertEquals(elements.size(), 4);
+		element.click();*/   
+		//List<WebElement> elements = driver.findElements(By.cssSelector("[class*='m-margin-left']"));
+		 WebElement element =  driver.findElement(By.id("globaxyl-search-input"));
+	          
+		  
+	}
+		/*Assert.assertEquals(elements.s ize(), 4);
 		System.out.println("Current url before:"+driver.getCurrentUrl());
 		driver.findElement(By.cssSelector(".elc-icon.elc-icon-cart")).click();
-		System.out.println("Current url after:"+driver.getCurrentUrl());
-	//	System.out.println("Html code of application::"+driver.getPageSource());
-		driver.navigate().back();//takes back to home page from cart page
+		System.out.prin   tln("Current url after:"+driver.getCurrentUrl());
+	//	System.out. ("Html code of application::"+driver.getPageSource());
+		driver.navigate ().back();//takes back to home page from cart page
 		System.out.println("home page title:"+driver.getTitle());
 		driver.navigate().forward();//takes forward to cart page from home page
 		System.out.println("cart page title:"+driver.getTitle());
@@ -46,8 +50,8 @@ public class HomePageTest {
 		Thread.sleep(500);
 		element.clear();//clears the textbox content
 		
-		/*List<WebElement> elements1 = driver.findElements(By.className(".validation-group"));
-		element = elements1.get(1);*/
+		List<WebElement> elements1 = driver.findElements(By.className(".validation-group"));
+		element = elements1.get(1);
 		driver.findElement(By.name("lastName")).sendKeys("K");
 		
 		System.out.println("elemnt's attribute value::"+element.getAttribute("placeholder"));//First name
@@ -82,7 +86,7 @@ public class HomePageTest {
 		//driver.quit();//it closes all windows/instances of current browser		
 	}
 	
-	
+	*/
 	
 	
 	@AfterClass
