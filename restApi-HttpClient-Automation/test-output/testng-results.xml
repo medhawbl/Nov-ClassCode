@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2348" started-at="2017-02-10T20:12:28Z" finished-at="2017-02-10T20:12:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2348" started-at="2017-02-10T20:12:28Z" finished-at="2017-02-10T20:12:30Z">
+      <class name="com.wbl.restApiAutomation.TestTwitterApi">
+        <test-method status="PASS" signature="testPostAccountSettings(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.wbl.restApiAutomation.TestTwitterApi@28feb3fa]" name="testPostAccountSettings" duration-ms="1065" started-at="2017-02-10T12:12:29Z" data-provider="postdata" finished-at="2017-02-10T12:12:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[account/update_profile.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[india]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostAccountSettings -->
+        <test-method status="PASS" signature="testPostAccountSettings(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.wbl.restApiAutomation.TestTwitterApi@28feb3fa]" name="testPostAccountSettings" duration-ms="256" started-at="2017-02-10T12:12:30Z" data-provider="postdata" finished-at="2017-02-10T12:12:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[account/update_profile.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[india]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostAccountSettings -->
+      </class> <!-- com.wbl.restApiAutomation.TestTwitterApi -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
